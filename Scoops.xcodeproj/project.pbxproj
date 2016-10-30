@@ -20,7 +20,17 @@
 		1324BCEC1DBE9DF800FA2346 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1324BCEA1DBE9DF800FA2346 /* NewsTableViewCell.xib */; };
 		1324BCEF1DBEA53700FA2346 /* noImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 1324BCEE1DBEA53700FA2346 /* noImage.png */; };
 		1324BCF11DBEAD1D00FA2346 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1324BCF01DBEAD1D00FA2346 /* NewsDetailViewController.swift */; };
-		1324BCF31DBEAE2900FA2346 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1324BCF21DBEAE2900FA2346 /* News.swift */; };
+		1334E0021DC27D4E0063A206 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1334E0011DC27D4E0063A206 /* News.swift */; };
+		135E7C201DC0767C0054E9DC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135E7C1F1DC0767C0054E9DC /* MapViewController.swift */; };
+		137999EB1DC1561B00243143 /* NewNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137999EA1DC1561B00243143 /* NewNewsViewController.swift */; };
+		137999ED1DC160B800243143 /* ClientTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137999EC1DC160B800243143 /* ClientTableViewController.swift */; };
+		1382718C1DC1323D003C1EC2 /* MicrosoftAzureMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1382718B1DC1323D003C1EC2 /* MicrosoftAzureMobile.framework */; };
+		1382718E1DC13331003C1EC2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1382718D1DC13331003C1EC2 /* WebKit.framework */; };
+		138ADB251DC66B93002E7F62 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138ADB241DC66B93002E7F62 /* RatingControl.swift */; };
+		138ADB281DC66E1B002E7F62 /* 5_filledStar_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 138ADB261DC66E1B002E7F62 /* 5_filledStar_2x.png */; };
+		138ADB291DC66E1B002E7F62 /* 5_emptyStar_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 138ADB271DC66E1B002E7F62 /* 5_emptyStar_2x.png */; };
+		13C4298D1DC320BF00FA06E0 /* NewsPublisherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C4298B1DC320BF00FA06E0 /* NewsPublisherTableViewCell.swift */; };
+		13C4298E1DC320C000FA06E0 /* NewsPublisherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13C4298C1DC320BF00FA06E0 /* NewsPublisherTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +51,17 @@
 		1324BCEA1DBE9DF800FA2346 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
 		1324BCEE1DBEA53700FA2346 /* noImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noImage.png; sourceTree = "<group>"; };
 		1324BCF01DBEAD1D00FA2346 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
-		1324BCF21DBEAE2900FA2346 /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		1334E0011DC27D4E0063A206 /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		135E7C1F1DC0767C0054E9DC /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		137999EA1DC1561B00243143 /* NewNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewNewsViewController.swift; sourceTree = "<group>"; };
+		137999EC1DC160B800243143 /* ClientTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientTableViewController.swift; sourceTree = "<group>"; };
+		1382718B1DC1323D003C1EC2 /* MicrosoftAzureMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MicrosoftAzureMobile.framework; sourceTree = "<group>"; };
+		1382718D1DC13331003C1EC2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		138ADB241DC66B93002E7F62 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		138ADB261DC66E1B002E7F62 /* 5_filledStar_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5_filledStar_2x.png; path = ../../../../Desktop/5_filledStar_2x.png; sourceTree = "<group>"; };
+		138ADB271DC66E1B002E7F62 /* 5_emptyStar_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5_emptyStar_2x.png; path = ../../../../Desktop/5_emptyStar_2x.png; sourceTree = "<group>"; };
+		13C4298B1DC320BF00FA06E0 /* NewsPublisherTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsPublisherTableViewCell.swift; sourceTree = "<group>"; };
+		13C4298C1DC320BF00FA06E0 /* NewsPublisherTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsPublisherTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +69,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1382718E1DC13331003C1EC2 /* WebKit.framework in Frameworks */,
 				1324BCE01DBE937800FA2346 /* libxml2.2.tbd in Frameworks */,
+				1382718C1DC1323D003C1EC2 /* MicrosoftAzureMobile.framework in Frameworks */,
 				1324BCDD1DBE932300FA2346 /* AZSClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,18 +100,13 @@
 		1324BCC81DBE930800FA2346 /* Scoops */ = {
 			isa = PBXGroup;
 			children = (
+				135E7C211DC0775A0054E9DC /* Controllers */,
 				1324BCED1DBEA4CB00FA2346 /* Resources */,
 				1324BCC91DBE930800FA2346 /* AppDelegate.swift */,
 				1324BCCD1DBE930800FA2346 /* Main.storyboard */,
 				1324BCD01DBE930800FA2346 /* Assets.xcassets */,
 				1324BCD21DBE930800FA2346 /* LaunchScreen.storyboard */,
 				1324BCD51DBE930800FA2346 /* Info.plist */,
-				1324BCE51DBE991900FA2346 /* NewsTableViewController.swift */,
-				1324BCE71DBE996000FA2346 /* LoginViewController.swift */,
-				1324BCE91DBE9DF800FA2346 /* NewsTableViewCell.swift */,
-				1324BCEA1DBE9DF800FA2346 /* NewsTableViewCell.xib */,
-				1324BCF01DBEAD1D00FA2346 /* NewsDetailViewController.swift */,
-				1324BCF21DBEAE2900FA2346 /* News.swift */,
 			);
 			path = Scoops;
 			sourceTree = "<group>";
@@ -97,6 +114,7 @@
 		1324BCDB1DBE930C00FA2346 /* Framworks */ = {
 			isa = PBXGroup;
 			children = (
+				1382718B1DC1323D003C1EC2 /* MicrosoftAzureMobile.framework */,
 				1324BCDC1DBE932300FA2346 /* AZSClient.framework */,
 				1324BCE21DBE939A00FA2346 /* Briging-class.h */,
 				1324BCE31DBE939A00FA2346 /* Briging-class.m */,
@@ -108,6 +126,7 @@
 		1324BCDE1DBE937800FA2346 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1382718D1DC13331003C1EC2 /* WebKit.framework */,
 				1324BCDF1DBE937800FA2346 /* libxml2.2.tbd */,
 			);
 			name = Frameworks;
@@ -117,8 +136,29 @@
 			isa = PBXGroup;
 			children = (
 				1324BCEE1DBEA53700FA2346 /* noImage.png */,
+				138ADB261DC66E1B002E7F62 /* 5_filledStar_2x.png */,
+				138ADB271DC66E1B002E7F62 /* 5_emptyStar_2x.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		135E7C211DC0775A0054E9DC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				135E7C1F1DC0767C0054E9DC /* MapViewController.swift */,
+				1324BCE51DBE991900FA2346 /* NewsTableViewController.swift */,
+				137999EC1DC160B800243143 /* ClientTableViewController.swift */,
+				1324BCE71DBE996000FA2346 /* LoginViewController.swift */,
+				1324BCE91DBE9DF800FA2346 /* NewsTableViewCell.swift */,
+				1324BCEA1DBE9DF800FA2346 /* NewsTableViewCell.xib */,
+				1324BCF01DBEAD1D00FA2346 /* NewsDetailViewController.swift */,
+				137999EA1DC1561B00243143 /* NewNewsViewController.swift */,
+				1334E0011DC27D4E0063A206 /* News.swift */,
+				13C4298B1DC320BF00FA06E0 /* NewsPublisherTableViewCell.swift */,
+				13C4298C1DC320BF00FA06E0 /* NewsPublisherTableViewCell.xib */,
+				138ADB241DC66B93002E7F62 /* RatingControl.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,10 +223,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1324BCD41DBE930800FA2346 /* LaunchScreen.storyboard in Resources */,
+				138ADB281DC66E1B002E7F62 /* 5_filledStar_2x.png in Resources */,
 				1324BCD11DBE930800FA2346 /* Assets.xcassets in Resources */,
+				138ADB291DC66E1B002E7F62 /* 5_emptyStar_2x.png in Resources */,
 				1324BCEF1DBEA53700FA2346 /* noImage.png in Resources */,
 				1324BCEC1DBE9DF800FA2346 /* NewsTableViewCell.xib in Resources */,
 				1324BCCF1DBE930800FA2346 /* Main.storyboard in Resources */,
+				13C4298E1DC320C000FA06E0 /* NewsPublisherTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,11 +242,16 @@
 			files = (
 				1324BCF11DBEAD1D00FA2346 /* NewsDetailViewController.swift in Sources */,
 				1324BCE61DBE991900FA2346 /* NewsTableViewController.swift in Sources */,
+				137999EB1DC1561B00243143 /* NewNewsViewController.swift in Sources */,
 				1324BCE41DBE939A00FA2346 /* Briging-class.m in Sources */,
+				137999ED1DC160B800243143 /* ClientTableViewController.swift in Sources */,
+				1334E0021DC27D4E0063A206 /* News.swift in Sources */,
 				1324BCEB1DBE9DF800FA2346 /* NewsTableViewCell.swift in Sources */,
-				1324BCF31DBEAE2900FA2346 /* News.swift in Sources */,
 				1324BCE81DBE996000FA2346 /* LoginViewController.swift in Sources */,
 				1324BCCA1DBE930800FA2346 /* AppDelegate.swift in Sources */,
+				138ADB251DC66B93002E7F62 /* RatingControl.swift in Sources */,
+				13C4298D1DC320BF00FA06E0 /* NewsPublisherTableViewCell.swift in Sources */,
+				135E7C201DC0767C0054E9DC /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +428,7 @@
 				1324BCDA1DBE930800FA2346 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
